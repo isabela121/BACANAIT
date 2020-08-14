@@ -7,7 +7,7 @@ return (
 
     <div className='jumbotron text-center'>
         <h1>Bacana IT</h1> 
-        <p>Especializada em </p> 
+        <p>Inovação e Tecnologia</p> 
         <form>
             <div className='input-group'>
                 <input type='email' className='form-control' size='50' placeholder='Email Address' required />
@@ -33,8 +33,9 @@ return (
                     <li><Link to='/'> INÍCIO </Link></li>
                     <li><Link to='/servicos'>SERVIÇOS</Link></li>
                     <li><Link to='/portfolio'>PORTFOLIO</Link></li>
-                    <li><Link to='/pricing'>PRICING</Link></li>
-                    <li><Link to='/contact'>CONTATO</Link></li>
+                    <li><Link to='/precos'>PREÇOS</Link></li>
+                    <li><Link to='/contatos'>CONTATO</Link></li>
+                    
                 </ul>
             </div>
         </div>

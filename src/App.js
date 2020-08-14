@@ -7,6 +7,8 @@ import Cabecalho from './componentes/Cabecalho'
 import Inicio from './componentes/Inicio'
 import Servicos from './componentes/Servicos'
 import Portfolio from './componentes/Portfolio'
+import Precos from './componentes/Precos'
+import Contatos from './componentes/Contatos'
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path='/' exact component={Inicio} />
         <Route path='/servicos' component={Servicos} />
         <Route path='/portfolio' component={Portfolio} />
+        <Route path='/Precos' component={Precos} />
+        <Route path='/Contatos' component={Contatos} />
 
        
         <Rodape />
