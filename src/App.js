@@ -1,13 +1,31 @@
 import React from 'react';
-import Site from './Site';
+import {BrowserRouter, Route} from 'react-router-dom'
+
+import Site from './Site'
+import Rodape from './componentes/Rodape'
+import Cabecalho from './componentes/Cabecalho'
+import Inicio from './componentes/Inicio'
+import Servicos from './componentes/Servicos'
+import Portfolio from './componentes/Portfolio'
 
 
 function App() {
   return (
-    <div className="App">
-      <Site />
-    </div>
+
+    <BrowserRouter>
+
+      <div className="App">
+        <Cabecalho />
+
+        <Route path='/' exact component={Inicio} />
+        <Route path='/servicos' component={Servicos} />
+        <Route path='/portfolio' component={Portfolio} />
+
+       
+        <Rodape />
+      </div>
+
+    </BrowserRouter>
   );
 }
-
 export default App;
