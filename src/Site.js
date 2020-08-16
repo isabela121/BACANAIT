@@ -9,18 +9,13 @@ const Site = props => {
 
         
 
-        
-
-                  
 
 
 
 
 
 
-
-
-    
+  
 
       </div>
 

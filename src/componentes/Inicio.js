@@ -6,16 +6,14 @@ const Inicio = props => {
 
 <div> 
 
-    
 
-        {/* Container (About Section) */}
         <div id='about' className='container-fluid'>
         <div className='row'>
             <div className='col-sm-8'>
-            <h2>Sobre a Bacana IT</h2><br />
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <br /><button className='btn btn-default btn-lg'>Get in Touch</button>
+            <h2>A Bacana IT</h2><br />
+            <h4>É um escritório de tecnologia da informação e comunicação focada em desenvolvimento de sistemas web, sites, campanhas, aplicativos para smartphones e e-mail marketing, gerando resultados positivos e inovadores para diversos negócios.</h4><br />
+            <p>Nos propomos a ouvir suas idéias e a lhe ajudar a construir o seu negócio com o objetivo de propocionar as melhores soluções personalizadas para sua empresa e alcançar sucesso.</p>
+        
             </div>
             <div className='col-sm-4'>
             <span className='glyphicon glyphicon-signal logo'></span>
@@ -29,10 +27,9 @@ const Inicio = props => {
             <span className='glyphicon glyphicon-globe logo '></span>
             </div>
             <div className='col-sm-8'>
-            <h2>Our Values</h2><br />
-            <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br />
-            <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h2>Temos o que você precisa</h2><br />
+            <h4>Faremos tudo o que você precisa para obter o seu app funcionando! Todos os sistemas construídos pela equipe da Bacana IT são responsivos para funcionar em qualquer dispositivo.</h4><br />
+            
             </div>
         </div>
         </div>
