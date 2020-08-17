@@ -11,9 +11,9 @@ const Inicio = props => {
         <div className='row'>
             <div className='col-sm-8'>
             <h2>A Bacana IT</h2><br />
-            <h4>É um escritório de tecnologia da informação e comunicação focada em desenvolvimento de sistemas web, sites, campanhas, aplicativos para smartphones e e-mail marketing, gerando resultados positivos e inovadores para diversos negócios.</h4><br />
+            <h4>É um escritório de tecnologia da informação e comunicação focada em desenvolvimento de sistemas web, sites, campanhas, desenvolvimento UX e UI em aplicativos para smartphones e e-mail marketing, gerando resultados positivos e inovadores para diversos negócios.</h4><br />
             <p>Nos propomos a ouvir suas idéias e a lhe ajudar a construir o seu negócio com o objetivo de propocionar as melhores soluções personalizadas para sua empresa e alcançar sucesso.</p>
-        
+        <br></br>
             </div>
             <div className='col-sm-4'>
             <span className='glyphicon glyphicon-signal logo'></span>

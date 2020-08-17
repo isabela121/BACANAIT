@@ -4,11 +4,11 @@ const Contatos = props =>{
     return(
 
 <div id='contact' className='container-fluid bg-grey'>
-  <h2 className='text-center'>CONTATOS</h2>
+  <h2 className='text-center '>Contato</h2><br></br>
   <div className='row'>
     <div className='col-sm-5'>
-      <p>Faça uma consulta ou solicite uma visita. Estaremos à sua disposição.</p>
-      <p><span className='glyphicon glyphicon-map-marker'></span> Basil. BR</p>
+      <p>Faça uma consulta ou solicite nossa visita. Estaremos à sua disposição.</p>
+      <p><span className='glyphicon glyphicon-map-marker'></span> Brasil. BR</p>
       <p><span className='glyphicon glyphicon-phone'></span> 55 71 999774040</p>
       <p><span className='glyphicon glyphicon-envelope'></span> interatisa@gmail.com</p>
     </div>

@@ -1,74 +1,53 @@
 import React from 'react'
+import {Link } from 'react-router-dom'
 
 
 const Portfolio = props =>{
     return(
 
-<div>
+        <div>
 
-    {/* Container (Portfolio Section) */}
-    <div id='portfolio' className='container-fluid text-center bg-grey'>
-    <h2>Portfólio</h2><br />
-    <h4>Conheça alguns dos nossos projetos desenvolvidos</h4>
-    <div className='row text-center '>
-        <div className='col-sm-4'>
-        <div className='thumbnail'>
-        <img src='newyork.jpg' alt='Pizza' width='400' height='300' />
-            <p><strong>Fala Pizza</strong></p>
-            <p>Site </p>
-        </div>
-        </div>
-        <div className='col-sm-4'>
-        <div className='thumbnail'>
-            <img src='newyork.jpg' alt='Gastrô' width='400' height='300' />
-            <p><strong>Gastrô Restaurante</strong></p>
-            <p>Restaurante Premium</p>
-        </div>
-        </div>
-        <div className='col-sm-4'>
-        <div className='thumbnail'>
-            <img src='sanfran.jpg' alt='Interatisa' width='400' height='300' />
-            <p><strong>Interatisa</strong></p>
-            <p>Yes, San Fran is ours</p>
-        </div>
-        </div>
-    </div><br />
-    
-<h2>Usamos estratégias de tecnologias para gerar resultados</h2>
-    <div id='myCarousel' className='carousel slide text-center' data-ride='carousel'>
-        {/* Indicators */}
-        <ol className='carousel-indicators'>
-        <li data-target='#myCarousel' data-slide-to='0' className='active'></li>
-        
-        </ol>
+            {/* Container (Portfolio Section) */}
+            <div id='portfolio' className='container-fluid text-center bg-grey'>
+            <h2>Portfólio</h2>
+            <h4>Conheça alguns dos nossos projetos desenvolvidos</h4><br></br>  <br></br> 
+            <div className='row text-center '>
+                <div className='col-sm-4'>
+                <div className='thumbnail'>
+                <img src='pizza.png' alt='Pizza' />
+                <p><strong>Fala pizza</strong></p>
+                    <p>Site </p>
+                </div>
+                </div>
+                <div className='col-sm-4'>
+                <div className='thumbnail'>
+                    <img src='gastro.png' alt='Gastrô' />
+                    <p><strong>Gastrogrill</strong></p>
+                    <p>Site</p>
+                </div>
+                </div>
+                <div className='col-sm-4'>
+                <div className='thumbnail'>
+                    <img src='interatisa.png' alt='Interatisa' />
+                    <p><strong>Interatisa</strong></p>
+                    <p>Site</p>
+                </div>
+                </div>
+            </div>
+            
+            <h2>Usamos estratégias de tecnologias para gerar resultados</h2>
 
-        {/* Wrapper for slides */}
-        <div className='carousel-inner' role='listbox'>
-        <div className='item active'>
-            <h3>'A solução para seu crescmento'<br /></h3>
-        </div>
-        {/*<div className='item'>
-            <h4>'One word... WOW!!'<br /><span>John Doe, Salesman, Rep Inc</span></h4>
-        </div>
-        <div className='item'>
-            <h4>'Could I... BE any more happy with this company?'<br /><span>Chandler Bing, Actor, FriendsAlot</span></h4>
-        </div>*/}
-        </div>
+            <div id='myCarousel' className='carousel slide text-center' data-ride='carousel'>
+                
 
-        {/* Left and right controls */}
-        <a className='left carousel-control' href='#myCarousel' role='button' data-slide='prev'>
-        <span className='glyphicon glyphicon-chevron-left' aria-hidden='true'></span>
-        <span className='sr-only'>Previous</span>
-        </a>
-        <a className='right carousel-control' href='#myCarousel' role='button' data-slide='next'>
-        <span className='glyphicon glyphicon-chevron-right' aria-hidden='true'></span>
-        <span className='sr-only'>Next</span>
-        </a>
+               
+
+                
+                </div>
+
+            </div>
+
         </div>
-
-    </div>
-
-</div>
 
     )
 }
