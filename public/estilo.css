@@ -3,6 +3,14 @@ body {
     line-height: 1.8;
     color: #818181;
   }
+
+  
+.about-left{
+    margin-left: 10px;
+  }
+
+
+
   h2 {
     font-size: 34px;
     color: #303030;

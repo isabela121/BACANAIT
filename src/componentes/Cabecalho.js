@@ -12,7 +12,7 @@ const Cabecalho = props => {
                 <p>Inovação e Tecnologia</p> 
             </div>
 
-            <nav class="navbar navbar-default navbar-fixed-top">
+            <nav className='navbar navbar-default navbar-fixed-top'>
                 <div className='container'>
                     <div className='navbar-header'>
                         <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>

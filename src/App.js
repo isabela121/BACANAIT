@@ -23,7 +23,7 @@ function App() {
         <Route path='/servicos' component={Servicos} />
         <Route path='/portfolio' component={Portfolio} />
         <Route path='/tecnologia' component={Tecnologia} />
-        <Route path='/Contatos' component={Contatos} />
+        <Route path='/contatos' component={Contatos} />
        
         <Rodape />
       </div>
