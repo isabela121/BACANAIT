@@ -10,6 +10,10 @@ import Portfolio from './componentes/Portfolio'
 import Tecnologia from './componentes/Tecnologia'
 import Contatos from './componentes/Contatos'
 
+//Area Administrativa
+import Admin from './admin/Admin';
+
+
 
 function App() {
   return (
@@ -24,7 +28,9 @@ function App() {
         <Route path='/portfolio' component={Portfolio} />
         <Route path='/tecnologia' component={Tecnologia} />
         <Route path='/contatos' component={Contatos} />
-       
+
+        <Route path='/admin' component={Admin} />
+        
         <Rodape />
       </div>
 
